@@ -10,7 +10,7 @@ export default function Minmax(props)
 
     return (
         <Text>
-            O valor maximo é:{maxvalue}
+            O valor maximo :{maxvalue}
         </Text>
     )
 }
