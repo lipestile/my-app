@@ -8,11 +8,11 @@ export default function App() {
     <>
       <StatusBar></StatusBar>
       <Profile
-        imgUri='https://www.fakepersongenerator.com/Face/female/female20161024753601562.jpg'
-        genero='Feminino'
-        nome='Felicia J Ochoa'
-        email='aiyana1980@gmail.com'
-        telefone='630-337-6439'
+        imgUri='https://this-person-does-not-exist.com/img/avatar-gen49c651ed894a5240b849fdf4030b8740.jpg'
+        genero='Man'
+        nome='Mohamade aylui'
+        email='mohamadeAyuli1999@gmail.com'
+        telefone='666-789-3456'
       /></>
     // <PaginaLogin/>
   );
