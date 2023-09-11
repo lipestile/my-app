@@ -1,29 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { Image, StyleSheet, Text, View } from 'react-native';
-import Minmax from './Components/Minmax';
-import Footer from './Components/Footer';
-import MeuComponente from './Components/semana-2/MeuComponente';
-import MeuComponente2 from './Components/semana-2/MeuComponente2';
-import NumeroAleatório from './Components/semana3/Botão';
-import Botão from './Components/semana3/Botão';
-import Contador from './Components/semana3/Contador';
-import Digiteseunome from './Components/semana3/Digiteseunome';
+import { Image, StatusBar, StyleSheet, Text, View } from 'react-native';
+import Profile from './Components/semana5/Profile';
+import PaginaLogin from './Components/semana6/PaginaLogin';
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-
-      <Digiteseunome></Digiteseunome>
-
-    </View>
+    <>
+      <StatusBar></StatusBar>
+      <Profile
+        imgUri='https://www.fakepersongenerator.com/Face/female/female20161024753601562.jpg'
+        genero='Feminino'
+        nome='Felicia J Ochoa'
+        email='aiyana1980@gmail.com'
+        telefone='630-337-6439'
+      /></>
+    // <PaginaLogin/>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 6,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  }
+
+  },
 });
